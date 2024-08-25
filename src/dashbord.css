@@ -1,0 +1,119 @@
+* {
+    transition: all 0.4s ease-in-out;
+}
+
+.head {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+hr {
+    position: relative;
+    top: -20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+.background {
+    background-color: lightgreen;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+
+.bar {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.barr {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.outer {
+    width: 100%;
+    border-radius: 30px;
+    padding: 2px;
+    
+}
+
+.innerComplex {
+    background-color: lightcoral;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.innerBasic {
+    background-color: lightblue;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-right: 80px;
+}
+
+.innerAdvance {
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.innerNone {
+    background-color: lightgray;
+    color: gray;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+    margin-right: 130px;
+}
+
+.prise {
+    margin-left: 150px;
+}
+
+.success-message {
+    position: fixed;
+    top: 10px;
+    right: 650px;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+
+.visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .success-message {
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .bar.active {
+    font-weight: bold;
+  }
+  
+  .bar {
+    cursor: pointer;
+  }
+  
+
